@@ -1,15 +1,3 @@
-"""
-RetailPulse — Phase 5: Streamlit Dashboard
-===========================================
-Interactive executive analytics dashboard.
-
-Usage:
-    pip install streamlit plotly scikit-learn
-    streamlit run dashboard/app.py
-
-Then open http://localhost:8501
-"""
-
 import os
 import sqlite3
 import warnings
@@ -745,5 +733,4 @@ st.divider()
 st.caption(
     "RetailPulse Analytics Dashboard · Built with Streamlit + Plotly · "
     "Data: synthetic e-commerce (2023–2024) · "
-    "github.com/yourname/retailpulse"
 )
